@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 数据与模型文件（体积大，不建议传 Git）
+*.pt
+*.pth
+*.onnx
+*.h5
+*.pkl
+*.npy
+*.npz
+datasets/
+data/
+
+# IDE
+.vscode/
+.idea/
+
+# 系统
+Thumbs.db
+.DS_Store
